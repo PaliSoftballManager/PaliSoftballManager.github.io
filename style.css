@@ -11,6 +11,7 @@
 body {
   background: white;
   color: #111;
+  padding-top: 80px;
 }
 
 /* NAVBAR */
@@ -86,6 +87,7 @@ body {
 .section {
   padding: 120px 15%;
   text-align: center;
+  min-height:60vh;
 }
 
 .section h2 {
