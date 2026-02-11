@@ -31,12 +31,6 @@ body {
   z-index: 1000;
 }
 
-.logo {
-  font-weight: 900;
-  letter-spacing: 2px;
-  color: #4169E1;
-}
-
 .navbar nav a {
   margin-left: 20px;
   text-decoration: none;
