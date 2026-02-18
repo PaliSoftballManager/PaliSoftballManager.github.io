@@ -65,11 +65,13 @@ body {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(65,105,225,0.4),
-    rgba(0,0,0,0.7)
-  );
+  background:
+    linear-gradient(
+      180deg,
+      rgba(65,105,225,0.4),
+      rgba(0,0,0,0.7)
+    ),
+    url("headerpic.jpg") center/cover no-repeat;
   z-index: 1;
 }
 
