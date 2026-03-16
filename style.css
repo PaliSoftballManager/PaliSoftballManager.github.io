@@ -417,3 +417,55 @@ footer {
     display: flex;
   }
 }
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* PASTE THE DIRECTIONS CSS HERE */
+
+.directions {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.directions-btn {
+  padding: 12px 28px;
+  background: var(--blue-main);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.directions-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  overflow: hidden;
+  min-width: 200px;
+}
+
+.directions-menu a {
+  display: block;
+  padding: 12px 18px;
+  text-decoration: none;
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.directions-menu a:hover {
+  background: var(--gray);
+}
+
+.directions-menu.show {
+  display: block;
+}
